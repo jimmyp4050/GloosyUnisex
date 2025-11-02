@@ -1,14 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const galleryImages = [
-  'https://images.pexels.com/photos/1319854/pexels-photo-1319854.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/3998414/pexels-photo-3998414.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/3764567/pexels-photo-3764567.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/3998421/pexels-photo-3998421.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
-  'https://images.pexels.com/photos/3065090/pexels-photo-3065090.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/3992870/pexels-photo-3992870.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/3998427/pexels-photo-3998427.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/1321909/pexels-photo-1321909.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/2065194/pexels-photo-2065194.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/3993212/pexels-photo-3993212.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
+  'https://images.pexels.com/photos/2896434/pexels-photo-2896434.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1',
 ];
 
 const Gallery: React.FC = () => {
